@@ -77,7 +77,7 @@ bench = false
 avian_derive = { path = "../avian_derive", version = "0.2" }
 bevy = { version = "0.16.0-rc", default-features = false, features = [
     "std",
-    "bevy_log",
+    "tracing",
 ] }
 bevy_math = { version = "0.16.0-rc" }
 bevy_heavy = { git = "https://github.com/Jondolf/bevy_heavy" }
