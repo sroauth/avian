@@ -1,9 +1,7 @@
 use alloc::sync::Arc;
 
 use crate::{data_structures::entity_data_index::entity_from_index_and_gen, prelude::*};
-use bevy::{
-    ecs::entity::hash_map::EntityHashMap, platform_support::collections::HashMap, prelude::*,
-};
+use bevy::{ecs::entity::hash_map::EntityHashMap, platform::collections::HashMap, prelude::*};
 use parry::{
     bounding_volume::Aabb,
     math::Isometry,
